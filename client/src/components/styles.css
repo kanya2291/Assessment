@@ -1,0 +1,46 @@
+ .formm{
+    border: 2px solid grey;
+    margin-top: 200px;
+    width:800px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+.body-bg {
+    position:fixed;
+    background-image: url('https://img.freepik.com/premium-photo/vegetables-table-top-view-with-copy-space-flat-lay_823200-992.jpg?w=2000');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+h1{
+    color: black;
+}
+#labell{
+    color: black;
+} 
+@media screen and (max-width:1200px){
+    .formm{
+      width: 35rem;
+      justify-content: center;
+      margin-left: 250px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .formm{
+        justify-content: center;
+        margin-left: 50px;
+    }
+}
+@media screen and(min-width:320px){
+    .formm{
+        justify-content: center;
+        margin-left: 20px;
+    }
+}
